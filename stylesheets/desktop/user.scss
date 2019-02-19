@@ -198,9 +198,12 @@
       padding: 0 0 12px 0;
       float: right;
       text-align: right;
-
       .btn {
+        color: #F0B90B;
         min-width: 140px;
+        &:hover {
+          border-bottom: 1px solid #F0B90B;
+        }
       }
 
       .right {
@@ -221,7 +224,16 @@
           a {
             padding: 5px 10px;
             margin-bottom: 10px;
+            color: #F0B90B;
             width: auto;
+            font-size:14px;
+            font-family:ProximaNova-Regular;
+            font-weight:400;
+            line-height:17px;
+            &:hover {
+              color: #F0B90B;
+              border-bottom: 1px solid #F0B90B;
+            }
           }
         }
       }

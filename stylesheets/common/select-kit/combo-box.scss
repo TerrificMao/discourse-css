@@ -4,9 +4,13 @@
     .select-kit-body {
       width: 100%;
       min-width: 150px;
-      border-radius: 0;
       box-shadow: shadow("dropdown");
-    }
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+}
 
     .select-kit-row {
       margin: 0;
@@ -44,11 +48,14 @@
     }
 
     .select-kit-header {
+      color: #212833;
       background: $secondary;
-      border: 1px solid $primary-medium;
+      border: 1px solid #848E9C;
       padding: 0 5px 0 10px;
-      font-weight: 500;
-      font-size: $font-0;
+      font-size:14px;
+      font-family:ProximaNova-Regular;
+      font-weight:400;
+      line-height:17px;
 
       &.is-focused {
         border: 1px solid #F0B90BFF;
