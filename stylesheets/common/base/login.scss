@@ -180,16 +180,5 @@ $input-width: 220px;
 button#login-link,
 button#new-account-link {
   background: transparent;
-  color:  #F0B90B;
-  &:hover {
-    border-bottom: 1px solid  #F0B90B;
-  }
-}
-
-button#new-account-link {
-  background: transparent;
-  color:  #F0B90B;
-  &:hover {
-    border-bottom: 1px solid  #F0B90B;
-  }
+  color: dark-light-choose($primary-high, $secondary-low);
 }

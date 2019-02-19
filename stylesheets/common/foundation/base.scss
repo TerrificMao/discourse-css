@@ -6,10 +6,10 @@
 // --------------------------------------------------
 
 html {
-  color: #48515D;
-  font-family: ProximaNova-Regular;
+  color: $primary;
+  font-family: $base-font-family;
   font-size: 14px;
-  line-height: 17px;
+  line-height: $line-height-large;
   background-color: $secondary;
   overflow-y: scroll;
   direction: ltr;

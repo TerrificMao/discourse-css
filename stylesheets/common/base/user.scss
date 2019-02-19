@@ -153,11 +153,7 @@
 
     .controls {
       ul {
-        width: 300px;
         list-style-type: none;
-        li {
-          float: left;
-        }
       }
 
       .btn {
@@ -542,7 +538,7 @@
   }
 
   .instructions {
-    color: #959EB1;
+    color: dark-light-choose($primary-medium, $secondary-medium);
     margin-bottom: 10px;
     font-size: $font-down-1;
     line-height: $line-height-large;

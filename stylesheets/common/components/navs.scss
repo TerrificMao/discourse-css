@@ -30,9 +30,9 @@
     margin-right: 5px;
 
     > a {
-      border: 1px solid #848E9C;
+      border: 1px solid #959EB1;
       border-radius:3px;
-      color: #212833;
+      color: #263147;
       font-size: 14px;
       font-family:ProximaNova-Regular;
       font-weight: 400;
@@ -81,7 +81,7 @@
   @extend %nav;
   padding: 0;
   overflow: hidden;
-  background: rgba(240,185,11,0.1);
+  background: $primary-low;
 
   li {
     border-bottom: 1px solid $primary-low;

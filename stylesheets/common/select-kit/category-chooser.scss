@@ -21,20 +21,9 @@
           }
         }
 
-        .badge-wrapper.bullet {
-          font-size: 14px;
-          font-family: ProximaNova-Bold;
-          font-weight: bold;
-          color: rgba(33,40,51,1);
-          line-height: 17px;
-        }
-
         .topic-count {
-          font-size: 14px;
-          font-family: ProximaNova-Regular;
-          font-weight: 400;
-          color: rgba(132,142,156,1);
-          line-height: 17px;
+          font-size: $font-down-2;
+          color: $primary;
           white-space: nowrap;
         }
 
@@ -50,40 +39,11 @@
           -webkit-box-flex: 0;
           -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-          font-size: 14px;
-          font-family: ProximaNova-Regular;
-          font-weight: 400;
-          color: rgba(132,142,156,1);
-          line-height: 17px;
+          color: #919191;
+          font-size: $font-down-1;
+          line-height: $line-height-large;
         }
       }
-
-
-
-      .select-kit-row.is-highlighted {
-        .badge-wrapper.bullet {
-          font-size: 14px;
-          font-family: ProximaNova-Bold;
-          font-weight: bold;
-          color: rgba(33,40,51,1);
-          line-height: 17px;
-        }
-
-        .topic-count {
-          font-size: 14px;
-          font-family: ProximaNova-Regular;
-          font-weight: 400;
-          color: #212833;
-        }
-
-        .category-desc {
-          font-size: 14px;
-          font-family: ProximaNova-Regular;
-          font-weight: 400;
-          color: #212833;
-        }
-      }
-
     }
   }
 }

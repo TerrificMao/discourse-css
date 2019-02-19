@@ -192,14 +192,6 @@
     }
   }
 
-  .user-selector {
-    .users-input {
-      div {
-        border: 1px solid #848E9C;
-      }
-    }
-  }
-
   .title-input {
     position: relative;
     display: flex;
@@ -300,9 +292,10 @@
     display: flex;
     align-items: center;
     button {
+      width: 128px;
       flex: 0 0 auto;
       &:hover {
-        opacity: 0.8;
+        font-size: 80%;
       }
     }
     .cancel {
@@ -313,7 +306,7 @@
       font-size: 14px;
       font-family: ProximaNova-Regular;
       font-weight: 400;
-      color: #212833;
+      color: rgba(38,49,71,1);
       line-height: 28px;
       width: 90px;
       height: 30px;
@@ -439,7 +432,7 @@ div.ac-wrap {
   flex-wrap: wrap;
   align-items: center;
   background-color: $secondary;
-  border: 1px solid #D8D8D8;
+  border: 1px solid $primary-medium;
   border-radius: 3px;
   min-height: 30px;
   box-sizing: border-box;

@@ -195,26 +195,18 @@ input {
   &[type="search"],
   &[type="tel"],
   &[type="color"] {
-    @includeappearance-none:;
+    @include appearance-none;
     display: inline-block;
     padding: $input-padding;
     margin-bottom: 9px;
     font-size: $font-0;
     line-height: $line-height-small;
-    color:  #212833;
+    color: $primary;
     background-color: $secondary;
-    border: 1px solid #848E9C;
-    border-radius: 3px;
+    border: 1px solid $primary-medium;
+    border-radius: 0;
     box-sizing: border-box;
     min-height: 30px;
-    font-size:14px;
-    font-family:ProximaNova-Regular;
-    font-weight:400;
-    line-height:17px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
     &:focus {
       border-color: $tertiary;
       box-shadow: shadow("focus");

@@ -457,14 +457,14 @@ $mobile-breakpoint: 700px;
 
 .admin-controls {
   display: flex;
-  background:rgba(240,185,11,0.1);
+  background-color: $primary-low;
   align-items: center;
 
   .admin-actions {
     margin-left: auto;
   }
   nav {
-    background:rgba(240,185,11,0.1);
+    background-color: $primary-low;
     width: 100%;
   }
   nav {
@@ -529,10 +529,7 @@ $mobile-breakpoint: 700px;
     > li {
       margin: 0;
       a.active {
-        color: white;
-        background:linear-gradient(to right, #F0B90B, #FBDA3C);
-        border: 1px solid #F0B90B;
-        border-radius:3px;
+        background: $primary-medium;
       }
       &:last-of-type {
         > a {
@@ -547,7 +544,7 @@ $mobile-breakpoint: 700px;
     color: $primary;
   }
   .controls {
-    background: rgba(240,185,11,0.1);
+    background: $primary-low;
     width: 100%;
     padding: 10px;
     display: flex;
@@ -733,7 +730,7 @@ $mobile-breakpoint: 700px;
 section.details {
   h1 {
     font-size: $font-up-3;
-    color: #212833;
+    color: $primary;
     padding: 5px 10px;
     margin: 30px 0 5px 0;
     border-bottom: 5px solid $primary-low;
@@ -755,10 +752,6 @@ section.details {
   text-align: right;
   .btn {
     line-height: $line-height-medium;
-    color: #F0B90B;
-    &:hover {
-      border-bottom: 1px solid #F0B90B;
-    }
   }
   @media (max-width: $mobile-breakpoint) {
     .btn {
