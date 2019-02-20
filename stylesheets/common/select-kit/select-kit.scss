@@ -167,7 +167,10 @@
     margin: 0;
     padding: 0;
     max-height: 200px;
-
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
     .validation-message {
       white-space: nowrap;
       color: $danger;

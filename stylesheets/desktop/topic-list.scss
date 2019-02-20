@@ -30,16 +30,12 @@
     font-family: ProximaNova-Regular;
     font-weight: 400;
     &:hover {
-      font-size: 80%;
+      opacity: 0.8;
       background: linear-gradient(to right, #F0B90B, #FBDA3C);
       outline: none;
       border: none;
     }
 }
-  #create-topic.btn {
-    width: 120px;
-  }
-
   .edit-category.btn {
     width: 76px;
   }

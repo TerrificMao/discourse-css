@@ -492,27 +492,12 @@ nav.post-controls {
     background: linear-gradient(to right, #F0B90B, #FBDA3C);
     color: white;
     &:hover {
-      font-size: 80%;
+      opacity: 0.8;
       background: -webkit-linear-gradient(to right, #F0B90B, #FBDA3C) !important;
       background: -o-linear-gradient(to right, #F0B90B, #FBDA3C) !important;
       background: -moz-linear-gradient(to right, #F0B90B, #FBDA3C) !important;
       background: linear-gradient(to right, #F0B90B, #FBDA3C) !important;
     }
-  }
-  .toggle-admin-menu {
-    width: 38px;
-  }
-
-  .invite-topic {
-    width: 83px;
-  }
-
-  .archive-topic {
-    width: 96px;
-  }
-
-  .create {
-    width: 85px;
   }
 
   .bookmark {
