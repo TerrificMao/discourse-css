@@ -758,8 +758,10 @@ section.details {
   .btn {
     line-height: $line-height-medium;
     color: #F0B90B;
+    background: white;
     &:hover {
       color: #959EB1;
+      background: white;
     }
   }
   @media (max-width: $mobile-breakpoint) {

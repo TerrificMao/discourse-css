@@ -200,9 +200,11 @@
       text-align: right;
       .btn {
         color: #F0B90B;
+        background: white;
         min-width: 140px;
         &:hover {
           color: #959EB1;
+          background: white;
         }
       }
 
@@ -225,6 +227,7 @@
             padding: 5px 10px;
             margin-bottom: 10px;
             color: #F0B90B;
+            background: white;
             width: auto;
             font-size:14px;
             font-family:ProximaNova-Regular;
@@ -232,6 +235,7 @@
             line-height:17px;
             &:hover {
               color: #959EB1;
+              background: white;
             }
           }
         }
