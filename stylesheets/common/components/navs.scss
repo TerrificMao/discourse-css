@@ -21,9 +21,7 @@
   @extend %nav;
   @extend .clearfix;
 
-  li:nth-child(5) {
-    display: none;
-  }
+
 
   > li {
     float: left;
@@ -105,8 +103,8 @@
     color: $primary;
 
     &.active {
-      color: $secondary;
-      background-color: $quaternary;
+      color: $secondary ;
+      background-color: #EF4B5A;
 
       &::after {
         left: 90%;

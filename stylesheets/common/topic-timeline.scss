@@ -198,6 +198,17 @@
 
       button {
         margin-right: 0.5em;
+        border-radius:3px;
+        border:1px solid #848E9C;
+        svg {
+          color: #212833;
+        }
+        &:hover {
+          border:1px solid #F0B90B;
+          svg {
+            color: #F0B90B;
+          }
+        }
       }
 
       button:last-child {

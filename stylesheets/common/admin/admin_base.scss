@@ -42,6 +42,7 @@ $mobile-breakpoint: 700px;
     }
     > li {
       margin: 0;
+      margin-right: 10px;
       &:last-of-type {
         > a {
           margin-right: 25px;
@@ -528,6 +529,7 @@ $mobile-breakpoint: 700px;
     }
     > li {
       margin: 0;
+      margin-right: 10px;
       a.active {
         color: white;
         background:linear-gradient(to right, #F0B90B, #FBDA3C);
@@ -757,7 +759,7 @@ section.details {
     line-height: $line-height-medium;
     color: #F0B90B;
     &:hover {
-      border-bottom: 1px solid #F0B90B;
+      color: #959EB1;
     }
   }
   @media (max-width: $mobile-breakpoint) {

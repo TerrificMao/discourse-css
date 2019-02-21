@@ -3,11 +3,6 @@
     &.period-chooser {
       display: inline-flex;
       position: relative;
-
-      .select-kit-collection {
-        padding: 5px;
-      }
-
       .period-chooser-header {
         background: none;
         border: none;
@@ -51,8 +46,8 @@
 
       .period-chooser-row {
         font-weight: bold;
-        padding: 5px;
-        font-size: $font-up-1;
+        font-size: 14px;
+        height: 34px;
         align-items: center;
         display: flex;
 
@@ -61,17 +56,37 @@
         }
 
         .date-section {
-          color: $primary;
+          font-size: 14px;
+          font-family: ProximaNova-Bold;
+          font-weight: bold;
+          color: #212833;
+          line-height: 17px;
         }
 
         .top-date-string {
-          font-weight: normal;
-          font-size: $font-down-1;
-          color: dark-light-choose($primary-medium, $secondary-high);
           text-transform: uppercase;
           margin-left: 5px;
+          font-size:14px;
+          font-family:ProximaNova-Regular;
+          font-weight:400;
+          color: #848E9C;
+          line-height:17px;
         }
       }
+
+      .select-kit-row.is-selected {
+        .top-date-string {
+          color: #212833;
+        }
+      }
+
+      .select-kit-row.is-highlighted {
+        .top-date-string {
+          color: #212833;
+        }
+      }
+
+
     }
   }
 }

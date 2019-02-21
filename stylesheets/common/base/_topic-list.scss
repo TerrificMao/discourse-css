@@ -281,6 +281,22 @@ ol.category-breadcrumb {
 
   button {
     margin-right: 0.5em;
+    border-radius:3px;
+    border:1px solid #848E9C;
+    font-size:14px;
+    font-family:ProximaNova-Regular;
+    font-weight:400;
+    color:#212833;
+    line-height:17px;
+    &:hover {
+      border: 1px solid #F0B90B;
+      border-radius:3px;
+      font-size:14px;
+      font-family:ProximaNova-Regular;
+      font-weight:400;
+      color: #F0B90B;
+      line-height:17px;
+    }
   }
 }
 

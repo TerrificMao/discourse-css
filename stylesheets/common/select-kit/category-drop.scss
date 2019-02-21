@@ -60,7 +60,11 @@
 
         .topic-count {
           margin-left: 5px;
-          font-weight: normal;
+          font-size: 14px;
+          font-family: ProximaNova-Regular;
+          font-weight: 400;
+          color: rgba(132,142,156,1);
+          line-height: 17px;
         }
 
         .badge-wrapper {
@@ -70,6 +74,17 @@
           &:nth-child(2) {
             margin-left: 10px;
           }
+        }
+      }
+
+      .select-kit-row.is-highlighted {
+        .topic-count {
+          margin-left: 5px;
+          font-size:14px;
+          font-family:ProximaNova-Regular;
+          font-weight:400;
+          color:#212833;
+          line-height:17px;
         }
       }
 
