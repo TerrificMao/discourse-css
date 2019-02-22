@@ -7,19 +7,19 @@
  */
 
  @font-face {
-  font-family: 'ProximaNova';
-  src: url('/stylesheets/fonts/ProximaNova-Regular.otf') format('opentype');
+  font-family: 'ProximaNova-Regular';
+  src: url('/fonts/ProximaNova-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'NumberFont';
-  src: url('/stylesheets/fonts/DINPro.otf') format('opentype');
+  src: url('/fonts/DINPro.otf') format('opentype');
   unicode-range: U+30-39;
 }
 
 @font-face {
   font-family: 'DIN';
-  src: url('/stylesheets/fonts/DINPro.otf') format('opentype');
+  src: url('/fonts/DINPro.otf') format('opentype');
 }
 
 html {
