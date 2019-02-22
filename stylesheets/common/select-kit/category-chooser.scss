@@ -23,7 +23,7 @@
 
         .badge-wrapper.bullet {
           font-size: 14px;
-          font-family: ProximaNova-Bold;
+          font-family: ProximaNova-Bold,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",sans-serif;
           font-weight: bold;
           color: rgba(33,40,51,1);
           line-height: 17px;
@@ -31,7 +31,7 @@
 
         .topic-count {
           font-size: 14px;
-          font-family: ProximaNova-Regular;
+          font-family: ProximaNova-Regular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",sans-serif;
           font-weight: 400;
           color: rgba(132,142,156,1);
           line-height: 17px;
@@ -51,7 +51,7 @@
           -ms-flex: 1 1 auto;
           flex: 1 1 auto;
           font-size: 14px;
-          font-family: ProximaNova-Regular;
+          font-family: ProximaNova-Regular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",sans-serif;
           font-weight: 400;
           color: rgba(132,142,156,1);
           line-height: 17px;
@@ -63,7 +63,7 @@
       .select-kit-row.is-highlighted {
         .badge-wrapper.bullet {
           font-size: 14px;
-          font-family: ProximaNova-Bold;
+          font-family: ProximaNova-Bold,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",sans-serif;
           font-weight: bold;
           color: rgba(33,40,51,1);
           line-height: 17px;
@@ -71,14 +71,14 @@
 
         .topic-count {
           font-size: 14px;
-          font-family: ProximaNova-Regular;
+          font-family: ProximaNova-Regular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",sans-serif;
           font-weight: 400;
           color: #212833;
         }
 
         .category-desc {
           font-size: 14px;
-          font-family: ProximaNova-Regular;
+          font-family: ProximaNova-Regular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",sans-serif;
           font-weight: 400;
           color: #212833;
         }

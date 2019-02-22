@@ -50,7 +50,7 @@
 
         .category-desc {
           font-weight: normal;
-          color: $primary-medium;
+          color: #848E9C;
           margin-top: 2px;
         }
 
@@ -61,7 +61,7 @@
         .topic-count {
           margin-left: 5px;
           font-size: 14px;
-          font-family: ProximaNova-Regular;
+          font-family: ProximaNova-Regular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",sans-serif;
           font-weight: 400;
           color: rgba(132,142,156,1);
           line-height: 17px;
@@ -81,11 +81,15 @@
         .topic-count {
           margin-left: 5px;
           font-size:14px;
-          font-family:ProximaNova-Regular;
+          font-family:ProximaNova-Regular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",sans-serif;
           font-weight:400;
           color:#212833;
           line-height:17px;
         }
+        .category-desc {
+          color:#212833;
+        }
+
       }
 
       &.is-expanded .select-kit-wrapper,

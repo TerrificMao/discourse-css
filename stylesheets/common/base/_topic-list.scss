@@ -20,7 +20,7 @@
     border: 1px solid #959EB1;
     font-size: 14px;
     border-radius:3px;
-    font-family:ProximaNova-Regular;
+    font-family:ProximaNova-Regular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",sans-serif;
     font-weight: 400;
     height: 17px;
     line-height: 17px;
@@ -284,18 +284,24 @@ ol.category-breadcrumb {
     border-radius:3px;
     border:1px solid #848E9C;
     font-size:14px;
-    font-family:ProximaNova-Regular;
+    font-family:ProximaNova-Regular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",sans-serif;
     font-weight:400;
     color:#212833;
     line-height:17px;
+    background: white;
     &:hover {
       border: 1px solid #F0B90B;
       border-radius:3px;
+      background: white;
       font-size:14px;
-      font-family:ProximaNova-Regular;
+      font-family:ProximaNova-Regular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",sans-serif;
       font-weight:400;
       color: #F0B90B;
       line-height:17px;
+      -webkit-border-radius:3px;
+      -moz-border-radius:3px;
+      -ms-border-radius:3px;
+      -o-border-radius:3px;
     }
   }
 }
