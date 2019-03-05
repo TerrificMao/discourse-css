@@ -51,6 +51,9 @@
   border-radius: 3px;
   color: #212833;
   background: #F0B90B;
+  &:hover {
+    background: rgba(240,185,11,0.8);
+  }
   font-weight: normal;
   //border: 1px solid rgba(149,158,177,1);
   -webkit-border-radius: 3px;
